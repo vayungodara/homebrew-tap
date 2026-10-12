@@ -7,23 +7,23 @@ class CliproxyRs < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/vayungodara/cliproxy-rs/releases/download/v0.2.3/cliproxy-0.2.3-aarch64-apple-darwin.tar.gz"
-      sha256 "1cde81b17a5d746ae1a22ba76727d4f0be121c2f1d54fcc70aca5925aed17fdc"
+      url "https://github.com/vayungodara/cliproxy-rs/releases/download/v0.2.4/cliproxy-0.2.4-aarch64-apple-darwin.tar.gz"
+      sha256 "701b715544575d822c6e9af8c320fd5bae44ad5450347411a436d70aca6fc158"
     end
     on_intel do
-      url "https://github.com/vayungodara/cliproxy-rs/releases/download/v0.2.3/cliproxy-0.2.3-x86_64-apple-darwin.tar.gz"
-      sha256 "23571deac4661f6c6a4b86cf5e60a2cab35ef882bce81be8a64ea81e6e13e8e2"
+      url "https://github.com/vayungodara/cliproxy-rs/releases/download/v0.2.4/cliproxy-0.2.4-x86_64-apple-darwin.tar.gz"
+      sha256 "a99201f7528f3dfd4530321d639543b1356e36c4aa50ab10246e9723786e08bf"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/vayungodara/cliproxy-rs/releases/download/v0.2.3/cliproxy-0.2.3-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "1e9c224c6284a0b035f82472685e3836574a3d6c6150676f49b9fa68aef31678"
+      url "https://github.com/vayungodara/cliproxy-rs/releases/download/v0.2.4/cliproxy-0.2.4-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "f80471d0b8e32e85c132bae73aa9c5afd0a57bd8eaab6b9f4f123d41de4c5d60"
     end
     on_intel do
-      url "https://github.com/vayungodara/cliproxy-rs/releases/download/v0.2.3/cliproxy-0.2.3-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "7a63d033745f4fb3819e1083cbcceb2a1a2305fbf2cd24ba506c22944480cb90"
+      url "https://github.com/vayungodara/cliproxy-rs/releases/download/v0.2.4/cliproxy-0.2.4-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "15914908843d05235383c1f2912100c07ea6c4b8e47e1e099d94a5425b849939"
     end
   end
 
